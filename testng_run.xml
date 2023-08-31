@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suites">
+    <test name="SimulateProducts">
+        <classes>
+            <class name="tests.RemoveThreeProducts"/>
+            <class name="tests.PurchaseProductTest"/>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
