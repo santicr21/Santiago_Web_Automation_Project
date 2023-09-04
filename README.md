@@ -9,10 +9,13 @@
 2. Remember that the third task is on another branch, so, if you want to run it, change your branch!
 
 ### For first task folder:
-1. Just run suite.xml, its highly recommended to run it with eclipse or intellij
+1. Go into `first_task` folder.
+2. Build the `pom.xml` file, just right click on `pom.xml`, go to `Add as a maven project` and click on it.
+3. Just run `suite.xml` file, just right click on `suite.xml` and click on run.
 
 ### For second task folder:
-1. Just open the markdown files, the rest of the folder's files are the images
-2. First Part: cssdinner_completed.rm
-3. Second Part: second_part_selectors.rm
-4. Third Part: web_elements.md
+1. Open the `second_task` folder.
+2. This task consists of multiple parts, click on the folder part you want to see.
+3. For all `first_part`, `second_part`, `third_part` folders, just open the markdown files to see the result.
+
+That's it!
