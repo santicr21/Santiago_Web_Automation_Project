@@ -6,7 +6,7 @@
 
 ### IMPORTANT
 1. Remember that first task folder its a maven project, so, you need to build the pom.xml to execute the suite.xml of any project.
-2. Remember that the third task is on another branch, so, if you want to run it, change your branch!
+2. Remember that you also need to build the `pom.xml` file of the third task folder.
 
 ### For first task folder:
 1. Go into `first_task` folder.
@@ -21,5 +21,10 @@
 5. The `second_part` markdown file is `second_part_selectors.md`
 6. The `third_part` markdown file is `web_elements.md`
 7. Just open any of these markdown files to see the result of each part!
+
+### For final project task (third task folder)
+1. Open third task folder
+2. Build the pom.xml file, just right click on pom.xml, go to Add as a maven project and click on it.
+3. Right click on suite.xml file, then click on run.
 
 That's it!
