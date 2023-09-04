@@ -4,6 +4,9 @@
 1. Install intellij
 2. Open the github repository using intellij
 
+### IMPORTANT
+Remember that you need to build pom.xml of first_task if you want to run suite.xml. The same way, you need to build pom.xml of third_task if you want to run suite.xml of third_task
+
 ### For first task folder:
 1. Just run testng_run.xml, its highly recommended to run it with eclipse or intellij
 
