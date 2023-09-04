@@ -17,5 +17,9 @@
 1. Open the `second_task` folder.
 2. This task consists of multiple parts, click on the folder part you want to see.
 3. For all `first_part`, `second_part`, `third_part` folders, just open the markdown files to see the result.
+4. The `first_part` markdown file is `cssdinner_completed.md`
+5. The `second_part` markdown file is `second_part_selectors.md`
+6. The `third_part` markdown file is `web_elements.md`
+7. Just open any of these markdown files to see the result of each part!
 
 That's it!
