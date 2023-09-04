@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suites">
+    <parameter name="url" value="https://www.saucedemo.com/" />
+    
+    <test name="SimulateCreditSuite">
+        <classes>
+            <class name="com.saucedemo.tests.LogoutTest"></class>
+            <class name="com.saucedemo.tests.RemoveThreeElementsTest"></class>
+            <class name="com.saucedemo.tests.BuyAProductTest"></class>
+        </classes>
+    </test>
+</suite>
