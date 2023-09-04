@@ -5,7 +5,8 @@
 2. Open the repository folder into intellij
 
 ### IMPORTANT
-Remember that first task folder its a maven project, so, you need to build the pom.xml to execute the suite.xml of any project.
+1. Remember that first task folder its a maven project, so, you need to build the pom.xml to execute the suite.xml of any project.
+2. Remember that the third task is on another branch, so, if you want to run it, change your branch!
 
 ### For first task folder:
 1. Just run suite.xml, its highly recommended to run it with eclipse or intellij
