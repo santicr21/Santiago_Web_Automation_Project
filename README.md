@@ -15,4 +15,7 @@
 
 ### For final project task (third task folder)
 1. Open `third task` folder
-2. Make sure you have intellij installed and 
+2. Right click on `suite.xml` file
+3. Click on run.
+
+That's it!
