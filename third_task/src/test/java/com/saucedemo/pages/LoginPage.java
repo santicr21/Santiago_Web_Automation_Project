@@ -22,9 +22,9 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public HomePage userSignIn() {
-        type (userNameInput, "standard_user");
-        type (passwordInput, "secret_sauce");
+    public HomePage userSignIn(String username, String password) {
+        type (userNameInput, username);
+        type (passwordInput, password);
         click (loginButton);
         return new HomePage(getDriver());
     }

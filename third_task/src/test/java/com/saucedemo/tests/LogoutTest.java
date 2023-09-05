@@ -9,7 +9,6 @@ public class LogoutTest extends BaseTest {
     @Test
     public void testLogoutUser() {
         String LOGIN_LOGO_TEXT = "Swag Labs";
-        HomePage homePage = loginPage.userSignIn();
         LoginPage loginPageAfterLogout = homePage.logout();
         Assert.assertEquals(loginPageAfterLogout.getPageLogo(), LOGIN_LOGO_TEXT);
     }

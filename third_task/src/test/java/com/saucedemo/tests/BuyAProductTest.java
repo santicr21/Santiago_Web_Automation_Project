@@ -9,7 +9,6 @@ public class BuyAProductTest extends BaseTest {
     @Test
     public void testUserBuysAProduct () {
         String SUCCESS_MESSAGE = "Thank you for your order!";
-        HomePage homePage = loginPage.userSignIn();
         homePage.addProductToCart();
         CartPage cartPage = homePage.goToCartPage();
         cartPage.payCartProducts();
