@@ -6,9 +6,9 @@
     
     <test name="SimulateCreditSuite">
         <classes>
-            <class name="com.saucedemo.tests.LogoutTest"></class>
             <class name="com.saucedemo.tests.RemoveThreeElementsTest"></class>
             <class name="com.saucedemo.tests.BuyAProductTest"></class>
+            <class name="com.saucedemo.tests.LogoutTest"></class>
         </classes>
     </test>
 </suite>

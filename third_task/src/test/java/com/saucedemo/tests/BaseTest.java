@@ -9,19 +9,19 @@ import org.testng.annotations.*;
 public class BaseTest {
     protected WebDriver driver;
     protected LoginPage loginPage;
-    protected HomePage homePage;
+    protected static HomePage homePage;
 
     @Parameters({"url", "username", "password"})
-    @BeforeClass()
+    @BeforeSuite
     public void testSetup(String url, String username, String password) {
-        this.driver = new ChromeDriver();
-        this.driver.manage().window().maximize();
-        this.driver.get(url);
-        this.loginPage = new LoginPage(this.driver);
-        this.homePage = this.loginPage.userSignIn(username, password);
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        loginPage = new LoginPage(this.driver);
+        homePage = loginPage.userSignIn(username, password);
     }
 
-    @AfterClass
+    @AfterSuite
     public void webDriverQuit() {
         this.driver.quit();
     }

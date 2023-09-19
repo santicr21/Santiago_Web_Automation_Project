@@ -9,9 +9,11 @@ public class BuyAProductTest extends BaseTest {
     @Test
     public void testUserBuysAProduct () {
         String SUCCESS_MESSAGE = "Thank you for your order!";
+        System.out.println(homePage);
         homePage.addProductToCart();
         CartPage cartPage = homePage.goToCartPage();
         cartPage.payCartProducts();
         Assert.assertEquals(cartPage.getSuccessMessage(), SUCCESS_MESSAGE);
+        homePage = cartPage.goToHomePage();
     }
 }

@@ -38,6 +38,12 @@ public class CartPage extends BasePage {
     @FindBy(className = "complete-header")
     private WebElement successMessage;
 
+    @FindBy(id = "react-burger-menu-btn")
+    private WebElement menuButton;
+
+    @FindBy(id = "inventory_sidebar_link")
+    private WebElement allItemsLink;
+
     public CartPage(WebDriver driver) {
         super(driver);
     }
@@ -55,6 +61,12 @@ public class CartPage extends BasePage {
         type (postalCodeInput, "123456");
         click (continueButton);
         click (finishButton);
+    }
+
+    public HomePage goToHomePage() {
+        click (menuButton);
+        click (allItemsLink);
+        return new HomePage(getDriver());
     }
 
     public String getSuccessMessage() {
