@@ -8,22 +8,22 @@ import java.time.Duration;
 
 public class HomePage extends BasePage {
     @FindBy(id = "add-to-cart-sauce-labs-bike-light")
-    WebElement addToCartBikeLightButton;
+    private WebElement addToCartBikeLightButton;
 
     @FindBy(id = "add-to-cart-sauce-labs-backpack")
-    WebElement addToCartBackpackButton;
+    private WebElement addToCartBackpackButton;
 
     @FindBy(id = "add-to-cart-sauce-labs-bolt-t-shirt")
-    WebElement addToCartTShirtButton;
+    private WebElement addToCartTShirtButton;
 
     @FindBy(className = "shopping_cart_link")
-    WebElement shoppingCartButton;
+    private WebElement shoppingCartButton;
 
     @FindBy(id = "react-burger-menu-btn")
-    WebElement menuButton;
+    private WebElement menuButton;
 
     @FindBy(id = "logout_sidebar_link")
-    WebElement logoutButton;
+    private WebElement logoutButton;
 
     public HomePage(WebDriver driver) {
         super(driver);

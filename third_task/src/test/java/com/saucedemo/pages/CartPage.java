@@ -6,37 +6,37 @@ import org.openqa.selenium.support.FindBy;
 
 public class CartPage extends BasePage {
     @FindBy(id = "remove-sauce-labs-backpack")
-    WebElement removeBackpackButton;
+    private WebElement removeBackpackButton;
 
     @FindBy(id = "remove-sauce-labs-bike-light")
-    WebElement removeBikeLightButton;
+    private WebElement removeBikeLightButton;
 
     @FindBy(id = "remove-sauce-labs-bolt-t-shirt")
-    WebElement removeTShirtButton;
+    private WebElement removeTShirtButton;
 
     @FindBy(className = "cart_item")
-    WebElement cartList;
+    private WebElement cartList;
 
     @FindBy(id = "checkout")
-    WebElement checkoutButton;
+    private WebElement checkoutButton;
 
     @FindBy(id = "first-name")
-    WebElement firstNameInput;
+    private WebElement firstNameInput;
 
     @FindBy(id = "last-name")
-    WebElement lastNameInput;
+    private WebElement lastNameInput;
 
     @FindBy(id = "postal-code")
-    WebElement postalCodeInput;
+    private WebElement postalCodeInput;
 
     @FindBy(id = "continue")
-    WebElement continueButton;
+    private WebElement continueButton;
 
     @FindBy(id = "finish")
-    WebElement finishButton;
+    private WebElement finishButton;
 
     @FindBy(className = "complete-header")
-    WebElement successMessage;
+    private WebElement successMessage;
 
     public CartPage(WebDriver driver) {
         super(driver);
